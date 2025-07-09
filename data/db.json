@@ -1,1 +1,54 @@
-{}
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Garrafa Térmica Inox 1L",
+            "price": 79.90
+        },
+        {
+            "id": 2,
+            "name": "Fone de Ouvido Bluetooth",
+            "price": 129.99
+        },
+        {
+            "id": 3,
+            "name": "Cadeira de Escritório Ergonômica",
+            "price": 459.00
+        },
+        {
+            "id": 4,
+            "name": "Panela de Pressão 4,5L Antiaderente",
+            "price": 99.90
+        },
+        {
+            "id": 5,
+            "name": "Smartphone Android 128GB",
+            "price": 1399.00
+        },
+        {
+            "id": 6,
+            "name": "Ventilador de Mesa 40cm",
+            "price": 149.90
+        },
+        {
+            "id": 7,
+            "name": "Tênis Esportivo Masculino",
+            "price": 199.90
+        },
+        {
+            "id": 8,
+            "name": "Bolsa Feminina de Couro Sintético",
+            "price": 159.00
+        },
+        {
+            "id": 9,
+            "name": "Carregador Portátil 10.000mAh",
+            "price": 89.90
+        },
+        {
+            "id": 10,
+            "name": "Kit de Ferramentas com Maleta 110 Peças",
+            "price": 189.00
+        }
+    ]
+}
