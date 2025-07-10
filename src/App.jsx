@@ -10,6 +10,8 @@ import NavBar from './components/NavBar/NavBar'
 import Product from './pages/product'
 import Info from './pages/Info'
 import NotFound from './pages/NotFound'
+import SearchForm from './components/SearchForm/SearchForm'
+import Search from './pages/Search'
 
 //components
 
@@ -23,6 +25,7 @@ function App() {
     <div>
       <BrowserRouter>
         <NavBar />
+        <SearchForm />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
@@ -30,6 +33,8 @@ function App() {
           <Route path='/products/:id' element={<Product />} />
           {/*Nested Route*/}
           <Route path='/products/:id/info' element={<Info />} />
+          {/*search page */}
+          <Route path='/search' element={<Search />} />
           {/*PAGINA 404 '* NO PATH' */}
           <Route path='*' element={<NotFound />} />
         </Routes>

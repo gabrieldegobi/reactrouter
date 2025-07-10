@@ -10,10 +10,10 @@ const NavBar = () => {
       <NavLink
         to='/'
         className={({ isActive }) => (isActive ? style.active : '')}
-        >Home</NavLink>
-      <NavLink 
-      to='/about'
-      className={({ isActive }) => (isActive ? style.active : '')}
+      >Home</NavLink>
+      <NavLink
+        to='/about'
+        className={({ isActive }) => (isActive ? style.active : '')}
       >About</NavLink>
     </nav>
   )
