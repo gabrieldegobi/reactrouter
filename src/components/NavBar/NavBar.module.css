@@ -19,4 +19,5 @@ nav a:hover {
 .active {
     background-color: #000;
     color: #fff;
+    transition: .3s;
 }
