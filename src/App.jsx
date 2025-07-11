@@ -1,7 +1,7 @@
 import './App.css'
 
 //config react router
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 //pages
 import Home from './pages/Home'
@@ -33,6 +33,7 @@ function App() {
           <Route path='/products/:id' element={<Product />} />
           {/*Nested Route*/}
           <Route path='/products/:id/info' element={<Info />} />
+          <Route path='company' element={<Navigate to="/about" />} />
           {/*search page */}
           <Route path='/search' element={<Search />} />
           {/*PAGINA 404 '* NO PATH' */}
